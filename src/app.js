@@ -21,8 +21,8 @@ app.use((req, res, next) => {
 res.status(404).json({ 
 message: "Favor realizar pruebas en los siguientes endpoints:", 
 endpoints: [ 
-"https://URL GENERADA Railway /usuarios", 
-"https:// URL GENERADA Railway /productos" 
+"mysql://root:cOPklyYyCVowBKTviCmwBpQFtIVESmnR@turntable.proxy.rlwy.net:34478/railway", 
+"mysql://root:cOPklyYyCVowBKTviCmwBpQFtIVESmnR@turntable.proxy.rlwy.net:34478/railway" 
 ] 
 }); 
 }); 
